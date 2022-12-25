@@ -23,6 +23,7 @@ int main()
     char* text = "ATLAS";
     int shift = 3;
     char* cipher = caesarCipher(text, shift);
+    printf("Input: %s\n",text);
     printf("Ciphertext: %s\n", cipher);
     return 0;
 }

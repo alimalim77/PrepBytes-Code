@@ -2,6 +2,27 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "Launch ArrayList_Num",
+      "request": "launch",
+      "mainClass": "ArrayList_Num",
+      "projectName": "PrepBytes Code_f40cd5c1"
+    },
+    {
+      "type": "java",
+      "name": "Launch ArrayList_Sort",
+      "request": "launch",
+      "mainClass": "ArrayList_Sort",
+      "projectName": "PrepBytes Code_f40cd5c1"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "PrepBytes Code_f40cd5c1"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",

@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch ArrayList_NumRev",
+      "request": "launch",
+      "mainClass": "ArrayList_NumRev",
+      "projectName": "PrepBytes Code_f40cd5c1"
+    },
+    {
+      "type": "java",
       "name": "Launch ArrayList_Num",
       "request": "launch",
       "mainClass": "ArrayList_Num",

@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch ArrayList_ReverseSort",
+      "request": "launch",
+      "mainClass": "ArrayList_ReverseSort",
+      "projectName": "PrepBytes Code_f40cd5c1"
+    },
+    {
+      "type": "java",
       "name": "Launch ArrayList_NumRev",
       "request": "launch",
       "mainClass": "ArrayList_NumRev",

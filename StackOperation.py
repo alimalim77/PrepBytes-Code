@@ -25,7 +25,7 @@ class MyStack:
  
 stack = MyStack()
 stack.push(20)
-print("Modified stack is",stack.printStack())
+print("Modified stack after is",stack.printStack())
 stack.push(25)
 print("Modified stack is",stack.printStack())
 #Stack Size called

@@ -27,7 +27,7 @@ while True:
     operation = input('What would you like to do? ')
  
     if operation == 'push':
-        ele = int(input("Enter the element to push"))
+        ele = int(input("Enter the element to push "))
         stack.push(ele)
     elif operation == 'pop':
         if stack.is_empty():

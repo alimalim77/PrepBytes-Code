@@ -9,7 +9,7 @@ def generate_prime_numbers(limit):
             if number % divisor == 0:
                 break
         else:
-            print(number)
+            print(number,end=" ")
             prime_count += 1
         number += 1
 

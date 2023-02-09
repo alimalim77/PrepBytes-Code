@@ -2,14 +2,14 @@ import random
 import string
 
 # Generating Random Passwords
-def generatePassword():
+def generatePassword(n):
     characters = string.ascii_letters + string.digits + string.punctuation
-    password = ''.join(random.choices(characters, k=20))
+    password = ''.join(random.choices(characters, k=n))
     return password 
 
-print("Enter if you want to generate password:-")
+print("Enter the length of password you want to generate:-")
 while True:
-    password =  generatePassword()
+    password =  generatePassword(int(input()))
     print("Your password is: ",password)
     inp = input("Do you agree with password. Press Y or N - ")
     if inp == "Y":

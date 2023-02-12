@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch earlyClass",
+      "request": "launch",
+      "mainClass": "earlyClass",
+      "projectName": "PrepBytes Code_f40cd5c1"
+    },
+    {
+      "type": "java",
       "name": "Launch lazyClass",
       "request": "launch",
       "mainClass": "lazyClass",

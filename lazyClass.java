@@ -1,11 +1,12 @@
 //Java Program for Lazy Instantiation
-
+// Private Class
 public class lazyClass {
     private static lazyClass instance;
-
+    //Private Constructor
     private lazyClass() {
     }
 
+    //Returns the instance
     public static synchronized lazyClass getInstance() {
 
         if (instance == null) {

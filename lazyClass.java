@@ -16,7 +16,7 @@ public class lazyClass {
     }
 
     public void sampleMethod() {
-        System.out.println("sampleMethod - Singleton Class in java");
+        System.out.println("sampleMethod - Lazy Singleton Class in java");
     }
 
     public static void main(String[] args) {
